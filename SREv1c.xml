@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+  <sets>
+    <set>
+      <name>SRE</name>
+      <longname>Starver’s Elegy</longname>
+      <settype>SRE</settype>
+    </set>
+  </sets>
+  <cards>
+
+    <card>
+      <name>William, the Survivalist</name>
+      <set rarity="">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Survivor</type>
+        <maintype>Survivor</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Stamina Regen = 5
+Max Stamina = 13
+Hunger 2 (At the beginning of your end phase, put hunger counters on this permanent equal to the amount of its hunger not satiated this turn. Then if this permanent has three or more hunger counters, remove an endurance counter from it.)</text>
+    </card>
+    <card>
+      <name>Jimmy, the Comfort Eater</name>
+      <set rarity="">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Survivor</type>
+        <maintype>Survivor</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Stamina Regen = 4
+Max Stamina = 9
+Hunger 4 (At the beginning of your end phase, put hunger counters on this permanent equal to the amount of its hunger not satiated this turn. Then if this permanent has three or more hunger counters, remove an endurance counter from it.)
+Whenever Jimmy, the Comfort Eater is fed, remove a hunger counter from him and put an endurance counter on him.</text>
+    </card>
+    <card>
+      <name>Rations</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>0</manacost>
+        <cmc>0</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 3
+A deck can have any number of cards named Rations.</text>
+    </card>
+    <card>
+      <name>Bread and Water</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 2
+When Bread and Water enters, create a Food item token with Satiates 1 and 1 endurance.</text>
+    </card>
+    <card>
+      <name>Bread and Cheese</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 3
+When you feed Bread and Cheese to a permanent, remove all hunger counters from that permanent.</text>
+    </card>
+    <card>
+      <name>Satiation Potion</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>4</manacost>
+        <cmc>4</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 5
+When you feed Satiation Potion to a permanent, remove all hunger counters from that permanent.</text>
+    </card>
+    <card>
+      <name>Healing Potion</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 0
+When you feed Healing Potion to a permanent, if it has less endurance counters than its starting endurance, put endurance counters on it equal to the difference.</text>
+    </card>
+    <card>
+      <name>Loaf of Bread</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>4</manacost>
+        <cmc>4</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 2
+When Loaf of Bread enters, create two tokens that are copies of it.</text>
+    </card>
+    <card>
+      <name>Cheese</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 1
+When you feed Cheese to a permanent, remove all hunger counters from that permanent.</text>
+    </card>
+    <card>
+      <name>Bread</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 2</text>
+    </card>
+    <card>
+      <name>Rat Swarm</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Remove 1 endurance counter from each Food you don’t control. You may remove 1 additional endurance counter from each Food in play.</text>
+    </card>
+    <card>
+      <name>Storehouse</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Structure</type>
+        <maintype>Structure</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>If an endurance counter would be removed from a Food you control without that Food being fed to a permanent, you may remove that endurance counter from Storehouse instead.</text>
+    </card>
+    <card>
+      <name>Baking Hut</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Structure</type>
+        <maintype>Structure</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Foods you control with Bread in their name enter with an additional endurance counter.</text>
+    </card>
+    <card>
+      <name>Hurricane</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Remove 3 endurance counters from each Structure you don’t control.</text>
+    </card>
+    <card>
+      <name>Earthquake</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Remove 6 endurance counters from each Structure in play.</text>
+    </card>
+    <card>
+      <name>Lumber</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Item - Material</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Repairs 3
+Upgrades 1</text>
+    </card>
+    <card>
+      <name>Stone Bricks</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Item - Material</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Repairs 2
+Upgrades 2</text>
+    </card>
+    <card>
+      <name>Pile of Lumber</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Item - Material</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Repairs 3
+Upgrades 1</text>
+    </card>
+    <card>
+      <name>Pile of Stone Bricks</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Item - Material</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Repairs 2
+Upgrades 2</text>
+    </card>
+    <card>
+      <name>Heap of Stone Bricks</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Item - Material</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Repairs 2
+Upgrades 2</text>
+    </card>
+    <card>
+      <name>Heap of Lumber</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Item - Material</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Repairs 3
+Upgrades 1</text>
+    </card>
+    <card>
+      <name>Questionably Science</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Action</type>
+        <maintype>Action</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Draw two cards.</text>
+    </card>
+    <card>
+      <name>Pseudoscientific Advancement</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Action</type>
+        <maintype>Action</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Research twice.</text>
+    </card>
+    <card>
+      <name>Rat Horde</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>4</manacost>
+        <cmc>4</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Remove 2 endurance counters from each Food you don’t control. You may remove 2 additional endurance counters from each Food in play.</text>
+    </card>
+    <card>
+      <name>Thief in the Night</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Remove all endurance counters from target item.</text>
+    </card>
+    <card>
+      <name>Hungry Thief in the Night</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Remove all endurance counters from target Food item.</text>
+    </card>
+    <card>
+      <name>Burly Thief in the Night</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Remove all endurance counters from target Material item.</text>
+    </card>
+    <card>
+      <name>Bundle of Berries</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 1
+When Bundle of Berries enters, create two tokens that are copies of it.</text>
+    </card>
+    <card>
+      <name>Berry</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>0</manacost>
+        <cmc>0</cmc>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 1
+When you play Berry, you gain 1 stamina.</text>
+    </card>
+    <card>
+      <name>Worker</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Ally</type>
+        <maintype>Ally</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Stamina Regen = 1
+Hunger 1 (At the beginning of your end phase, put hunger counters on this permanent equal to the amount of its hunger not satiated this turn. Then if this permanent has three or more hunger counters, remove an endurance counter from it.)</text>
+    </card>
+    <card>
+      <name>Water</name>
+      <set rarity="">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Token Item - Food</type>
+        <maintype>Item</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Satiates 1</text>
+    </card>
+    <card>
+      <name>Restoration</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Action</type>
+        <maintype>Action</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Remove all hunger counters from target ally or survivor. Then if that permanent has less endurance counters than its starting endurance, put endurance counters on it equal to the difference.</text>
+    </card>
+    <card>
+      <name>Starving Worker</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Ally</type>
+        <maintype>Ally</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Stamina Regen = 1</text>
+    </card>
+    <card>
+      <name>Hungry Worker</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Ally</type>
+        <maintype>Ally</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Stamina Regen = 1
+Hunger 2 (At the beginning of your end phase, put hunger counters on this permanent equal to the amount of its hunger not satiated this turn. Then if this permanent has three or more hunger counters, remove an endurance counter from it.)</text>
+    </card>
+    <card>
+      <name>Skilled Worker</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Ally</type>
+        <maintype>Ally</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Stamina Regen = 2
+Hunger 2 (At the beginning of your end phase, put hunger counters on this permanent equal to the amount of its hunger not satiated this turn. Then if this permanent has three or more hunger counters, remove an endurance counter from it.)</text>
+    </card>
+    <card>
+      <name>Tower of Knowledge</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>8</manacost>
+        <cmc>8</cmc>
+        <type>Structure</type>
+        <maintype>Structure</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your main phase, research.</text>
+    </card>
+    <card>
+      <name>Tower of Wealth</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>6</manacost>
+        <cmc>6</cmc>
+        <type>Structure</type>
+        <maintype>Structure</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your main phase, draw a card.</text>
+    </card>
+    <card>
+      <name>Wildfire</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Remove 2 endurance counters from each Structure you don’t control.</text>
+    </card>
+    <card>
+      <name>Plague</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Remove 1 endurance counter from each Food in play and each Ally in play.</text>
+    </card>
+    <card>
+      <name>Sabotage</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Action</type>
+        <maintype>Action</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Reactive
+Put target card on the stack into its owner’s discard pile.</text>
+    </card>
+    <card>
+      <name>Reanimation Ritual</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>6</manacost>
+        <cmc>6</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Put target ally card in your graveyard onto the field under your control.</text>
+    </card>
+    <card>
+      <name>Distort</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Action</type>
+        <maintype>Action</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Reactive
+Put target card in an event queue into its owner’s discard pile.</text>
+    </card>
+    <card>
+      <name>Ruin</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Event</type>
+        <maintype>Event</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Each opponent removes an endurance counter from two permanents they control.</text>
+    </card>
+    <card>
+      <name>Watchtower</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Structure</type>
+        <maintype>Structure</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>If an endurance counter would be removed from an ally you control, you may remove that endurance counter from Watchtower instead.</text>
+    </card>
+    <card>
+      <name>Wall</name>
+      <set rarity="common">SRE</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Structure</type>
+        <maintype>Structure</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>If an endurance counter would be removed from a permanent you control, you may remove that endurance counter from Wall instead.</text>
+    </card>
+
+    <!-->Tokens</-->
+
+
+  </cards>
+</cockatrice_carddatabase>
