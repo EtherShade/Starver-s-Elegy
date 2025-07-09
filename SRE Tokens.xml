@@ -2,6 +2,64 @@
 <cockatrice_carddatabase version="4">
   <cards>
 
+    <card>
+      <name>Food SRE</name>
+      <set>SRE</set>
+      <prop>
+        <colors></colors>
+        <type>Token Item - Food</type>
+        <maintype>Item</maintype>
+        <notes>!token
+!related Farm Plot;Wild Rabbit;Berry Bush;Chicken Coop;Varmiae, the Amalgamous Piper;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Food enters tapped.
+Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger by 1.</text>
+      <token>1</token>
+      <reverse-related>Farm Plot</reverse-related>
+      <reverse-related>Wild Rabbit</reverse-related>
+      <reverse-related>Berry Bush</reverse-related>
+      <reverse-related>Chicken Coop</reverse-related>
+      <reverse-related>Varmiae, the Amalgamous Piper</reverse-related>
+    </card>
+    <card>
+      <name>Decay SRE</name>
+      <set>SRE</set>
+      <prop>
+        <colors></colors>
+        <type>Token Event - Decay</type>
+        <maintype>Event</maintype>
+        <notes>!token
+!related Hound;Mage Pupil;Visionary;Wolf;Ilterion, the Studious;Giant Warrior;Eziarag</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Each opponent removes 1 endurance counter from a permanent they control.</text>
+      <token>1</token>
+      <reverse-related>Hound</reverse-related>
+      <reverse-related>Mage Pupil</reverse-related>
+      <reverse-related>Visionary</reverse-related>
+      <reverse-related>Wolf</reverse-related>
+      <reverse-related>Ilterion, the Studious</reverse-related>
+      <reverse-related>Giant Warrior</reverse-related>
+      <reverse-related>Eziarag</reverse-related>
+    </card>
+    <card>
+      <name>Eziarag Summons SRE</name>
+      <set>SRE</set>
+      <prop>
+        <colors></colors>
+        <type>Token Item - Summons</type>
+        <maintype>Item</maintype>
+        <notes>!token
+!related Acolyte of Eziarag;Dagger of Eziarag;Pendant of Eziarag;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Tap, Remove 7 endurance counters from Summons items you control: Put a card named Eziarag from your sideboard onto the field.</text>
+      <token>1</token>
+      <reverse-related>Acolyte of Eziarag</reverse-related>
+      <reverse-related>Dagger of Eziarag</reverse-related>
+      <reverse-related>Pendant of Eziarag</reverse-related>
+    </card>
 
   </cards>
 </cockatrice_carddatabase>

@@ -9,7 +9,8 @@
         <colors></colors>
         <type>Token Event - Omen</type>
         <maintype>Event</maintype>
-        <notes>!related Oinkingdeath, Blade of the Pig King;Great Prophecy;Doom Foretold;Pseudoscientific Prediction;Ominous Spire;</notes>
+        <notes>!token
+!related Oinkingdeath, Blade of the Pig King;Great Prophecy;Doom Foretold;Pseudoscientific Prediction;Ominous Spire;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>On Trigger: Choose one —
@@ -29,7 +30,8 @@
         <colors></colors>
         <type>Token Event - Decay</type>
         <maintype>Event</maintype>
-        <notes>!related Famine Approaches;Call to Oinks;</notes>
+        <notes>!token
+!related Famine Approaches;Call to Oinks;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>On Trigger: Each opponent removes 1 endurance counter from a permanent they control.</text>
@@ -44,7 +46,8 @@
         <colors></colors>
         <type>Token Item - Food</type>
         <maintype>Item</maintype>
-        <notes>!related Berry Bush;Iron Fist;</notes>
+        <notes>!token
+!related Berry Bush;Iron Fist;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>Food enters tapped.
