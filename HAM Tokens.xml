@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+  <cards>
+
+    <card>
+      <name>Omen HAM</name>
+      <set>HAM</set>
+      <prop>
+        <colors></colors>
+        <type>Token Event - Omen</type>
+        <maintype>Event</maintype>
+        <notes>!related Oinkingdeath, Blade of the Pig King;Great Prophecy;Doom Foretold;Pseudoscientific Prediction;Ominous Spire;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Choose one —
+• Turn all cards in target player’s study face up.
+• Put target card in a study into its owner’s discard pile.</text>
+      <token>1</token>
+      <reverse-related>Oinkingdeath, Blade of the Pig King</reverse-related>
+      <reverse-related>Great Prophecy</reverse-related>
+      <reverse-related>Doom Foretold</reverse-related>
+      <reverse-related>Pseudoscientific Prediction</reverse-related>
+      <reverse-related>Ominous Spire</reverse-related>
+    </card>
+    <card>
+      <name>Decay HAM</name>
+      <set>HAM</set>
+      <prop>
+        <colors></colors>
+        <type>Token Event - Decay</type>
+        <maintype>Event</maintype>
+        <notes>!related Famine Approaches;Call to Oinks;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Each opponent removes 1 endurance counter from a permanent they control.</text>
+      <token>1</token>
+      <reverse-related>Famine Approaches</reverse-related>
+      <reverse-related>Call to Oinks</reverse-related>
+    </card>
+    <card>
+      <name>Food HAM</name>
+      <set>HAM</set>
+      <prop>
+        <colors></colors>
+        <type>Token Item - Food</type>
+        <maintype>Item</maintype>
+        <notes>!related Berry Bush;Iron Fist;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Food enters tapped.
+Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger by 1.</text>
+      <token>1</token>
+      <reverse-related>Berry Bush</reverse-related>
+      <reverse-related>Iron Fist</reverse-related>
+    </card>
+
+  </cards>
+</cockatrice_carddatabase>
