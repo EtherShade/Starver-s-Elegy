@@ -10,7 +10,7 @@
         <type>Token Item - Food</type>
         <maintype>Item</maintype>
         <notes>!token
-!related Farm Plot;Wild Rabbit;Berry Bush;Chicken Coop;Varmiae, the Amalgamous Piper;</notes>
+!related Farm Plot;Wild Rabbit;Chicken Coop;Varmiae, the Amalgamous Piper;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>Food enters tapped.
@@ -18,7 +18,6 @@ Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger b
       <token>1</token>
       <reverse-related>Farm Plot</reverse-related>
       <reverse-related>Wild Rabbit</reverse-related>
-      <reverse-related>Berry Bush</reverse-related>
       <reverse-related>Chicken Coop</reverse-related>
       <reverse-related>Varmiae, the Amalgamous Piper</reverse-related>
     </card>
