@@ -31,13 +31,14 @@
         <type>Token Event - Decay</type>
         <maintype>Event</maintype>
         <notes>!token
-!related Famine Approaches;Call to Oinks;</notes>
+!related Wrath of the Past;Call to Oinks;Returner Infantry;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>On Trigger: Each opponent removes 1 endurance counter from a permanent they control.</text>
       <token>1</token>
-      <reverse-related>Famine Approaches</reverse-related>
+      <reverse-related>Wrath of the Past</reverse-related>
       <reverse-related>Call to Oinks</reverse-related>
+      <reverse-related>Returner Infantry</reverse-related>
     </card>
     <card>
       <name>Food HAM</name>
@@ -50,7 +51,7 @@
 !related Berry Bush;Iron Fist;</notes>
       </prop>
       <tablerow>1</tablerow>
-      <text>Food enters tapped.
+      <text>Food enters play tapped.
 Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger by 1.</text>
       <token>1</token>
       <reverse-related>Berry Bush</reverse-related>

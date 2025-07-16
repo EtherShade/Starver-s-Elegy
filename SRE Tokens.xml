@@ -13,7 +13,7 @@
 !related Farm Plot;Wild Rabbit;Chicken Coop;Varmiae, the Amalgamous Piper;</notes>
       </prop>
       <tablerow>1</tablerow>
-      <text>Food enters tapped.
+      <text>Food enters play tapped.
 Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger by 1.</text>
       <token>1</token>
       <reverse-related>Farm Plot</reverse-related>
@@ -32,7 +32,7 @@ Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger b
 !related Hound;Mage Pupil;Visionary;Wolf;Ilterion, the Studious;Giant Warrior;Eziarag</notes>
       </prop>
       <tablerow>1</tablerow>
-      <text>On Trigger: Each opponent removes 1 endurance counter from a permanent they control.</text>
+      <text>On Trigger: Each opponent removes 1 endurance counter from two permanents they control.</text>
       <token>1</token>
       <reverse-related>Hound</reverse-related>
       <reverse-related>Mage Pupil</reverse-related>
