@@ -10,7 +10,7 @@
         <type>Token Event - Omen</type>
         <maintype>Event</maintype>
         <notes>!token
-!related Oinkingdeath, Blade of the Pig King;Great Prophecy;Doom Foretold;Pseudoscientific Prediction;Ominous Spire;</notes>
+!related Oinkingdeath, Blade of the Pig King;Great Prophecy;Doom Foretold;Pseudoscientific Prediction;Ominous Spire;Hero’s Stockpile;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>On Trigger: Choose one —
@@ -22,6 +22,7 @@
       <reverse-related>Doom Foretold</reverse-related>
       <reverse-related>Pseudoscientific Prediction</reverse-related>
       <reverse-related>Ominous Spire</reverse-related>
+      <reverse-related>Hero&apos;s Stockpile</reverse-related>
     </card>
     <card>
       <name>Decay HAM</name>
@@ -31,7 +32,7 @@
         <type>Token Event - Decay</type>
         <maintype>Event</maintype>
         <notes>!token
-!related Wrath of the Past;Call to Oinks;Returner Infantry;</notes>
+!related Wrath of the Past;Call to Oinks;Returner Infantry;Hero’s Stockpile;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>On Trigger: Each opponent removes 1 endurance counter from a permanent they control.</text>
@@ -39,6 +40,7 @@
       <reverse-related>Wrath of the Past</reverse-related>
       <reverse-related>Call to Oinks</reverse-related>
       <reverse-related>Returner Infantry</reverse-related>
+      <reverse-related>Hero&apos;s Stockpile</reverse-related>
     </card>
     <card>
       <name>Food HAM</name>
@@ -48,7 +50,7 @@
         <type>Token Item - Food</type>
         <maintype>Item</maintype>
         <notes>!token
-!related Berry Bush;Iron Fist;</notes>
+!related Berry Bush;Iron Fist;Hero’s Stockpile;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>Food enters play tapped.
@@ -56,6 +58,7 @@ Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger b
       <token>1</token>
       <reverse-related>Berry Bush</reverse-related>
       <reverse-related>Iron Fist</reverse-related>
+      <reverse-related>Hero&apos;s Stockpile</reverse-related>
     </card>
 
   </cards>
