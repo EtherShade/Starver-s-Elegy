@@ -32,7 +32,7 @@
         <type>Token Event - Decay</type>
         <maintype>Event</maintype>
         <notes>!token
-!related Wrath of the Past;Call to Oinks;Returner Infantry;Hero’s Stockpile;</notes>
+!related Wrath of the Past;Call to Oinks;Returner Infantry;Hero’s Stockpile;Seedling Seller;Porcine Guardians;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>On Trigger: Each opponent removes 1 endurance counter from a permanent they control.</text>
@@ -41,6 +41,8 @@
       <reverse-related>Call to Oinks</reverse-related>
       <reverse-related>Returner Infantry</reverse-related>
       <reverse-related>Hero&apos;s Stockpile</reverse-related>
+      <reverse-related>Seedling Seller</reverse-related>
+      <reverse-related>Porcine Guardians</reverse-related>
     </card>
     <card>
       <name>Food HAM</name>
@@ -50,7 +52,7 @@
         <type>Token Item - Food</type>
         <maintype>Item</maintype>
         <notes>!token
-!related Berry Bush;Iron Fist;Hero’s Stockpile;</notes>
+!related Berry Bush;Iron Fist;Hero’s Stockpile;Seedling Seller;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>Food enters play tapped.
@@ -59,6 +61,56 @@ Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger b
       <reverse-related>Berry Bush</reverse-related>
       <reverse-related>Iron Fist</reverse-related>
       <reverse-related>Hero&apos;s Stockpile</reverse-related>
+      <reverse-related>Seedling Seller</reverse-related>
+    </card>
+    <card>
+      <name>Biscuit [Conjured] HAM</name>
+      <set>HAM</set>
+      <prop>
+        <colors></colors>
+        <type>Item - Food</type>
+        <maintype>Item</maintype>
+        <notes>!token
+!related Bake Biscuits&lt;conjure>;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Biscuit [Conjured] enters play tapped.
+Tap, Remove 1 endurance counter from Biscuit [Conjured]: Satiate target permanent’s hunger by 2. Untap it.</text>
+      <token>1</token>
+      <reverse-related persistent="persistent">Bake Biscuits</reverse-related>
+    </card>
+    <card>
+      <name>Berry Bush [Conjured] HAM</name>
+      <set>HAM</set>
+      <prop>
+        <colors></colors>
+        <type>Structure</type>
+        <maintype>Structure</maintype>
+        <notes>!token
+!related Seedling Seller&lt;conjure>;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Tap: Put a berry counter on Berry Bush [Conjured].
+Tap, Remove a berry counter from Berry Bush [Conjured]: Create a Food token.</text>
+      <token>1</token>
+      <reverse-related persistent="persistent">Seedling Seller</reverse-related>
+    </card>
+    <card>
+      <name>Ruin [Conjured] HAM</name>
+      <set>HAM</set>
+      <prop>
+        <colors></colors>
+        <type>Event</type>
+        <maintype>Event</maintype>
+        <notes>!token
+!related Wasteful Profiteering&lt;conjure>;Vandalism&lt;conjure>;Ruinous Spire&lt;conjure>;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Each opponent removes 1 endurance counter from two permanents they control.</text>
+      <token>1</token>
+      <reverse-related persistent="persistent">Wasteful Profiteering</reverse-related>
+      <reverse-related persistent="persistent">Vandalism</reverse-related>
+      <reverse-related persistent="persistent">Ruinous Spire</reverse-related>
     </card>
 
   </cards>
