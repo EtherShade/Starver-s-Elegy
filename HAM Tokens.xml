@@ -10,19 +10,22 @@
         <type>Token Event - Omen</type>
         <maintype>Event</maintype>
         <notes>!token
-!related Oinkingdeath, Blade of the Pig King;Great Prophecy;Doom Foretold;Pseudoscientific Prediction;Ominous Spire;Hero’s Stockpile;</notes>
+!related Pseudoscientific Prediction;Doom Foretold;Great Prophecy;Doomstone;Fate Key;Hero’s Stockpile;Oinkingdeath, Blade of the Pig King;Ominous Spire;Village Elder’s Dwelling;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>On Trigger: Choose one —
 • Turn all cards in target player’s study face up.
 • Put target card in a study into its owner’s discard pile.</text>
       <token>1</token>
-      <reverse-related>Oinkingdeath, Blade of the Pig King</reverse-related>
-      <reverse-related>Great Prophecy</reverse-related>
-      <reverse-related>Doom Foretold</reverse-related>
       <reverse-related>Pseudoscientific Prediction</reverse-related>
-      <reverse-related>Ominous Spire</reverse-related>
+      <reverse-related>Doom Foretold</reverse-related>
+      <reverse-related>Great Prophecy</reverse-related>
+      <reverse-related>Doomstone</reverse-related>
+      <reverse-related>Fate Key</reverse-related>
       <reverse-related>Hero&apos;s Stockpile</reverse-related>
+      <reverse-related>Oinkingdeath, Blade of the Pig King</reverse-related>
+      <reverse-related>Ominous Spire</reverse-related>
+      <reverse-related>Village Elder&apos;s Dwelling</reverse-related>
     </card>
     <card>
       <name>Decay HAM</name>
@@ -32,17 +35,18 @@
         <type>Token Event - Decay</type>
         <maintype>Event</maintype>
         <notes>!token
-!related Wrath of the Past;Call to Oinks;Returner Infantry;Hero’s Stockpile;Seedling Seller;Porcine Guardians;</notes>
+!related Versatile Degredation;Harbinger of Ruin;Returner Infantry;Hero’s Stockpile;Village Relic;Festerblade;Ilterion, the Studious;</notes>
       </prop>
       <tablerow>1</tablerow>
       <text>On Trigger: Each opponent removes 1 endurance counter from a permanent they control.</text>
       <token>1</token>
-      <reverse-related>Wrath of the Past</reverse-related>
-      <reverse-related>Call to Oinks</reverse-related>
+      <reverse-related>Versatile Degredation</reverse-related>
+      <reverse-related>Harbinger of Ruin</reverse-related>
       <reverse-related>Returner Infantry</reverse-related>
       <reverse-related>Hero&apos;s Stockpile</reverse-related>
-      <reverse-related>Seedling Seller</reverse-related>
-      <reverse-related>Porcine Guardians</reverse-related>
+      <reverse-related>Village Relic</reverse-related>
+      <reverse-related>Festerblade</reverse-related>
+      <reverse-related>Ilterion, the Studious</reverse-related>
     </card>
     <card>
       <name>Food HAM</name>
@@ -64,7 +68,7 @@ Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger b
       <reverse-related>Seedling Seller</reverse-related>
     </card>
     <card>
-      <name>Biscuit [Conjured] HAM</name>
+      <name>Biscuit [Created] HAM</name>
       <set>HAM</set>
       <prop>
         <colors></colors>
@@ -74,13 +78,13 @@ Tap, Remove 1 endurance counter from Food: Satiate target permanent’s hunger b
 !related Bake Biscuits&lt;conjure>;</notes>
       </prop>
       <tablerow>1</tablerow>
-      <text>Biscuit [Conjured] enters play tapped.
-Tap, Remove 1 endurance counter from Biscuit [Conjured]: Satiate target permanent’s hunger by 2. Untap it.</text>
+      <text>Biscuit [Created] enters play tapped.
+Tap, Remove 1 endurance counter from Biscuit [Created]: Satiate target permanent’s hunger by 2. Untap it.</text>
       <token>1</token>
       <reverse-related persistent="persistent">Bake Biscuits</reverse-related>
     </card>
     <card>
-      <name>Berry Bush [Conjured] HAM</name>
+      <name>Berry Bush [Created] HAM</name>
       <set>HAM</set>
       <prop>
         <colors></colors>
@@ -90,13 +94,13 @@ Tap, Remove 1 endurance counter from Biscuit [Conjured]: Satiate target permanen
 !related Seedling Seller&lt;conjure>;</notes>
       </prop>
       <tablerow>1</tablerow>
-      <text>Tap: Put a berry counter on Berry Bush [Conjured].
-Tap, Remove a berry counter from Berry Bush [Conjured]: Create a Food token.</text>
+      <text>Tap: Put a berry counter on Berry Bush [Created].
+Tap, Remove a berry counter from Berry Bush [Created]: Create a Food token.</text>
       <token>1</token>
       <reverse-related persistent="persistent">Seedling Seller</reverse-related>
     </card>
     <card>
-      <name>Ruin [Conjured] HAM</name>
+      <name>Ruin [Created] HAM</name>
       <set>HAM</set>
       <prop>
         <colors></colors>
@@ -111,6 +115,48 @@ Tap, Remove a berry counter from Berry Bush [Conjured]: Create a Food token.</te
       <reverse-related persistent="persistent">Wasteful Profiteering</reverse-related>
       <reverse-related persistent="persistent">Vandalism</reverse-related>
       <reverse-related persistent="persistent">Ruinous Spire</reverse-related>
+    </card>
+    <card>
+      <name>Threat HAM</name>
+      <set>HAM</set>
+      <prop>
+        <colors></colors>
+        <type>Token Event - Threat</type>
+        <maintype>Event</maintype>
+        <notes>!token
+!related Village Elder;Porcine Guardians;Seedling Seller;Hero’s Stockpile;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Target opponent chooses three permanents you control. You remove an endurance counter from one of them.</text>
+      <token>1</token>
+      <reverse-related>Village Elder</reverse-related>
+      <reverse-related>Porcine Guardians</reverse-related>
+      <reverse-related>Seedling Seller</reverse-related>
+      <reverse-related>Hero&apos;s Stockpile</reverse-related>
+    </card>
+    <card>
+      <name>Strike HAM</name>
+      <set>HAM</set>
+      <prop>
+        <colors></colors>
+        <type>Token Event - Strike</type>
+        <maintype>Event</maintype>
+        <notes>!token
+!related Call to Oinks;Versatile Mercenary;Wrath of the Past;Hero’s Stockpile;Blade of the Guard;Greatsword;Shortsword;</notes>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>On Trigger: Choose one. Target opponent removes an endurance counter from a permanent they control of a chosen card type —
+• Ally.
+• Structure.
+• Item.</text>
+      <token>1</token>
+      <reverse-related>Call to Oinks</reverse-related>
+      <reverse-related>Versatile Mercenary</reverse-related>
+      <reverse-related>Wrath of the Past</reverse-related>
+      <reverse-related>Hero&apos;s Stockpile</reverse-related>
+      <reverse-related>Blade of the Guard</reverse-related>
+      <reverse-related>Greatsword</reverse-related>
+      <reverse-related>Shortsword</reverse-related>
     </card>
 
   </cards>
